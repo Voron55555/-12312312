@@ -1,0 +1,38 @@
+#rectangle {
+    width: 1920px;
+    height: 120px;
+    background: #4da1f7;
+    
+    top: 0px;
+    left: 0px;
+}
+
+#convert {
+    width: 1920px;
+    height: 120px;
+    background:#4da1f7;
+    float: left;
+    left: 0px;
+    bottom: 0px;
+}
+
+
+#videos > div {
+    padding: 10px;
+    border: 1px solid #ff0000;
+
+    
+}
+#videos {
+display: grid;
+grid-template: 0.5fr 1fr 1fr / 1fr 1fr 1fr;
+border: 2px;
+padding: 10px;
+}
+
+.vid { 
+    width: 600px;
+    float: left;
+    margin: 10px;
+}
+
